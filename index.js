@@ -33,7 +33,7 @@ client.once("ready", async () => {
   // Log a cada 5 segundos
   setInterval(() => {
     console.log('Bot está rodando:', new Date().toISOString());
-  }, 5000);
+  }, 30000);
 
   // Envio de mensagem a cada 30 segundos
   setInterval(async () => {
@@ -44,7 +44,7 @@ client.once("ready", async () => {
     } catch (error) {
       console.error('Erro ao enviar mensagem automática:', error);
     }
-  }, 30000);
+  }, 3600000); // 3600000 ms = 1 hora
 
   // Agendar mensagem para as 10:05 do horário de Brasília
   schedule.scheduleJob('55 13 * * *', async () => {
