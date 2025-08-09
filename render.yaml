@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: chatbot-service
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
