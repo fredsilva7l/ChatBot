@@ -44,7 +44,7 @@ client.once("ready", async () => {
   // }, 3600000); // 3600000 ms = 1 hora
 
   // Agendar mensagem para as 10:05 do horário de Brasília
-  schedule.scheduleJob("0 6 * * *", async () => {
+  schedule.scheduleJob("31 10 * * *", async () => {
     try {
       const targetNumber = "553171345717@c.us";
       await client.sendMessage(
