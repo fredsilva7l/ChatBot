@@ -90,3 +90,31 @@ Evite clichês batidos. Priorize sensibilidade e originalidade.
 
 
 
+:
+
+🌸 (flor de cerejeira)
+💮 (flor branca)
+🏵️ (roseta)
+🌹 (rosa)
+🥀 (rosa murcha)
+🌺 (hibisco)
+🌻 (girassol)
+🌼 (flor amarela)
+🌷 (tulipa)
+💐 (buquê)
+🌿 (erva)
+☘️ (trevo de três folhas)
+🍀 (trevo de quatro folhas)
+🌱 (broto)
+🪴 (planta em vaso)
+🍃 (folhas ao vento)
+🍂 (folha caída)
+🍁 (folha de bordo)
+🌾 (espiga de arroz)
+🎍 (arranjo de bambu)
+🎋 (árvore de Tanabata)
+🪻 (jacinto)
+
+
+
+
