@@ -43,15 +43,15 @@ client.once("ready", async () => {
   //   }
   // }, 3600000); // 3600000 ms = 1 hora
 
-  // Agendar mensagem para as 10:05 do horário de Brasília
-  schedule.scheduleJob("31 10 * * *", async () => {
+  // Agendar mensagem para as 9:31 do horário de Brasília
+  schedule.scheduleJob("31 9 * * *", async () => {
     try {
       const targetNumber = "553171345717@c.us";
       await client.sendMessage(
         targetNumber,
-        "Bom dia mb 🌸"
+        "Bom dia mb 🌷"
       );
-      console.log("Mensagem agendada enviada às 06:00 para:", targetNumber);
+      console.log("Mensagem agendada enviada às 7:31 para:", targetNumber);
     } catch (error) {
       console.error("Erro ao enviar mensagem agendada:", error);
     }
