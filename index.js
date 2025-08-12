@@ -46,12 +46,12 @@ client.once("ready", async () => {
   // Agendar mensagem para as 9:31 do horário de Brasília
   schedule.scheduleJob("31 9 * * *", async () => {
     try {
-      const targetNumber = "553171345717@c.us";
+      const targetNumber = "553196550903@c.us";
       await client.sendMessage(
         targetNumber,
-        "Bom dia mb 🌷"
+        "Bom dia minha linda"
       );
-      console.log("Mensagem agendada enviada às 7:31 para:", targetNumber);
+      console.log("Mensagem agendada enviada às 6:31 para:", targetNumber);
     } catch (error) {
       console.error("Erro ao enviar mensagem agendada:", error);
     }
