@@ -69,9 +69,9 @@ async function enviarMensagensDoDia() {
 }
 
 client.once("ready", async () => {
-  schedule.scheduleJob("10 14 * * *", enviarMensagensDoDia);
+  schedule.scheduleJob("45 14 * * *", enviarMensagensDoDia);
 
-  console.log("⏰ Agendamento configurado para 14:10 (11:10 horário local) todos os dias");
+  console.log("⏰ Agendamento configurado para 14:45 (11:45 horário local) todos os dias");
 });
 
 client.initialize();
