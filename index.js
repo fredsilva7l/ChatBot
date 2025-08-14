@@ -69,13 +69,9 @@ async function enviarMensagensDoDia() {
 }
 
 client.once("ready", async () => {
-  console.log("🤖 WhatsApp Bot conectado e pronto!");
-  const targetNumber = "553173571193@c.us";
-  await client.sendMessage(targetNumber, "Bot está funcionando corretamente");
-  
-  schedule.scheduleJob("55 13 * * *", enviarMensagensDoDia);
-  
-  console.log("⏰ Agendamento configurado para 13:55 (10:55 horário local) todos os dias");
+  schedule.scheduleJob("10 14 * * *", enviarMensagensDoDia);
+
+  console.log("⏰ Agendamento configurado para 14:10 (11:10 horário local) todos os dias");
 });
 
 client.initialize();
