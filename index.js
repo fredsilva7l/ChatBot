@@ -1,7 +1,8 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const schedule = require("node-schedule");
 const http = require("http");
-const qrcode = require("qrcode-terminal");
+const fs = require("fs");
+const path = require("path");
 
 const server = http.createServer((req, res) => {
   const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
@@ -10,27 +11,71 @@ const server = http.createServer((req, res) => {
 });
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`Servidor HTTP rodando na porta ${PORT}`);
+  console.log(`🌐 Servidor HTTP rodando na porta ${PORT}`);
 });
 
 const client = new Client({
   authStrategy: new LocalAuth(),
 });
 
-client.on('qr', (qr) => {
-  qrcode.generate(qr, { small: true });
-});
+function carregarMensagens() {
+  try {
+    const mensagensPath = path.join(__dirname, "mensagens.json");
+    const dados = fs.readFileSync(mensagensPath, "utf8");
+    return JSON.parse(dados);
+  } catch (error) {
+    console.error("Erro ao carregar mensagens:", error);
+    return [];
+  }
+}
+
+async function enviarMensagensDoDia() {
+  const targetNumber = "553173571193@c.us";
+  const dataAtual = new Date().toLocaleDateString('pt-BR');
+  const mensagens = carregarMensagens();
+  
+  const mensagemDoDia = mensagens.find(msg => msg.data === dataAtual);
+  
+  if (mensagemDoDia) {
+    console.log(`📤 Enviando mensagens para ${dataAtual} (${mensagemDoDia.diaSemana})`);
+    
+    try {
+      if (mensagemDoDia.mensagem) {
+        await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+      
+      if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
+        const mensagemMusica = `🎵 Música do dia: ${mensagemDoDia.musica}`;
+        await client.sendMessage(targetNumber, mensagemMusica);
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+      
+      if (mensagemDoDia.link_musica && 
+          mensagemDoDia.link_musica.trim() !== "" && 
+          !mensagemDoDia.link_musica.includes("futuramente")) {
+        const mensagemLink = `🔗 Ouça aqui: ${mensagemDoDia.link_musica}`;
+        await client.sendMessage(targetNumber, mensagemLink);
+      }
+      
+      console.log(`✅ Mensagens enviadas com sucesso para ${dataAtual}`);
+      
+    } catch (error) {
+      console.error("❌ Erro ao enviar mensagens:", error);
+    }
+  } else {
+    console.log(`⚠️ Nenhuma mensagem encontrada para ${dataAtual}`);
+  }
+}
 
 client.once("ready", async () => {
-  console.log("Cliente pronto!");
+  console.log("🤖 WhatsApp Bot conectado e pronto!");
   const targetNumber = "553173571193@c.us";
-  // Envia mensagem imediatamente ao iniciar
-  await client.sendMessage(targetNumber, "Teste de funcionamento do bot");
-  // Mantém o agendamento, se desejar
-  schedule.scheduleJob("00 10 * * *", async () => {
-    await client.sendMessage(targetNumber, "Mensagem agendada ok!");
-  });
+  await client.sendMessage(targetNumber, "Bot está funcionando corretamente");
+  
+  schedule.scheduleJob("55 13 * * *", enviarMensagensDoDia);
+  
+  console.log("⏰ Agendamento configurado para 13:55 (10:55 horário local) todos os dias");
 });
-
 
 client.initialize();

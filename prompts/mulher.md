@@ -88,9 +88,59 @@ Inclua sempre um gatilho emocional sutil, como:
 
 Evite clichês batidos. Priorize sensibilidade e originalidade.
 
+"Boa tarde, MB ❤️ Que sua quinta seja tão linda quanto o seu sorriso."
 
+"Boa tarde, MB 😘 Já pensei em você hoje? Sim. Já sorri sozinho? Também."
 
-:
+"Boa tarde, minha MB 💛 Que sua tarde seja leve e feliz… igual eu fico quando falo com você."
+
+"Ei, MB… boa tarde! Que tal deixar essa quinta ainda melhor me mandando um oi?"
+
+"Boa tarde, MB 🌹 Só passando pra lembrar que você é especial todos os dias."
+
+Aqui vão 20 opções descontraídas com a palavra quinta-feira pra sua MB:
+
+"Boa tarde, MB! Quinta-feira combina com café… e com você na minha mente."
+
+"MB, essa quinta-feira tá bonita, mas ainda não chega aos seus pés."
+
+"Boa tarde, MB. Quinta-feira é quase sexta, mas ainda longe do tanto que quero te ver."
+
+"MB, quinta-feira e eu aqui pensando: será que já posso te sequestrar pro fim de semana?"
+
+"Boa tarde, MB! Quinta-feira é aquele dia que pede um sorriso seu pra melhorar."
+
+"MB, quinta-feira… e eu aqui firme e forte tentando não te mandar mensagem a cada 5 minutos."
+
+"Boa tarde, MB! Quinta-feira é o dia perfeito pra lembrar que gosto muito de você."
+
+"MB, essa quinta-feira só tem graça porque eu posso te mandar mensagem."
+
+"Boa tarde, MB! Quinta-feira é pré-sexta… ou seja, já dá pra começar a sentir saudade do fim de semana com você."
+
+"MB, quinta-feira é o meio do caminho… mas com você, qualquer caminho fica melhor."
+
+"Boa tarde, MB! Quinta-feira é só um aquecimento pro tanto de conversa boa que a gente ainda vai ter."
+
+"MB, quinta-feira tá aqui me perguntando se você tá sorrindo agora."
+
+"Boa tarde, MB! Quinta-feira merece ser vivida com leveza… e você é minha leveza."
+
+"MB, quinta-feira e eu já tô sonhando com a próxima vez que vou te ver."
+
+"Boa tarde, MB! Quinta-feira é o dia oficial de pensar besteira… e a maioria envolve você."
+
+"MB, quinta-feira é quase fim de semana, mas eu já queria que fosse quase você na minha frente."
+
+"Boa tarde, MB! Quinta-feira me lembra que a semana tá acabando… e que minha paciência pra ficar longe de você também."
+
+"MB, quinta-feira é dia de boas notícias… a minha foi que você existe."
+
+"Boa tarde, MB! Quinta-feira só fica melhor se você me responder agora."
+
+"MB, quinta-feira com mensagem minha é carinho… sem mensagem minha é injustiça."
+
+Se quiser, posso te montar também uma lista só com quinta-feira em tom mais provocante e flertando mais pesado.
 
 🌸 (flor de cerejeira)
 💮 (flor branca)
