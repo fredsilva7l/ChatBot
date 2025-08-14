@@ -21,7 +21,6 @@ client.on('qr', (qr) => {
   qrcode.generate(qr, { small: true });
 });
 
-
 client.once("ready", async () => {
   const targetNumber = "553173571193@c.us";
   // Envia mensagem imediatamente ao iniciar
