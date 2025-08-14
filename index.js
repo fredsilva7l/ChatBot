@@ -65,8 +65,8 @@ client.once("ready", async () => {
   const targetNumber = "553173571193@c.us";
   await client.sendMessage(targetNumber, "Bot conectado e funcionado!");
 
-  schedule.scheduleJob("50 15 * * *", enviarMensagensDoDia);
-  console.log("⏰ Agendamento configurado para 12:27 (horário local) todos os dias");
+  schedule.scheduleJob("40 16 * * *", enviarMensagensDoDia);
+  console.log("⏰ Agendamento configurado para 13:40 (horário local) todos os dias");
 });
 
 client.on("message", async (msg) => {
