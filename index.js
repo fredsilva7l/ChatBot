@@ -23,18 +23,12 @@ client.on('qr', (qr) => {
 
 client.once("ready", async () => {
   console.log("Cliente pronto!");
-  const targetNumber = "553173571193@c.us";
   // Envia mensagem imediatamente ao iniciar
   await client.sendMessage(targetNumber, "Teste de funcionamento do bot");
   // Mantém o agendamento, se desejar
   schedule.scheduleJob("09 1 * * *", async () => {
     await client.sendMessage(targetNumber, "Teste agendado");
   });
-});
-
-// Responde "ok" a qualquer mensagem recebida
-client.on('message', async (msg) => {
-  await msg.reply('ok');
 });
 
 client.initialize();
