@@ -33,36 +33,27 @@ async function enviarMensagensDoDia() {
   const targetNumber = "553173571193@c.us";
   const dataAtual = new Date().toLocaleDateString('pt-BR');
   const mensagens = carregarMensagens();
-  
+
   const mensagemDoDia = mensagens.find(msg => msg.data === dataAtual);
-  
+
   if (mensagemDoDia) {
     console.log(`📤 Enviando mensagens para ${dataAtual} (${mensagemDoDia.diaSemana})`);
-    
-    try {
-      if (mensagemDoDia.mensagem) {
-        await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      }
-      
-      if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
-        const mensagemMusica = `🎵 Música do dia: ${mensagemDoDia.musica}`;
-        await client.sendMessage(targetNumber, mensagemMusica);
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      }
-      
-      if (mensagemDoDia.link_musica && 
-          mensagemDoDia.link_musica.trim() !== "" && 
-          !mensagemDoDia.link_musica.includes("futuramente")) {
-        const mensagemLink = `🔗 Ouça aqui: ${mensagemDoDia.link_musica}`;
-        await client.sendMessage(targetNumber, mensagemLink);
-      }
-      
-      console.log(`✅ Mensagens enviadas com sucesso para ${dataAtual}`);
-      
-    } catch (error) {
-      console.error("❌ Erro ao enviar mensagens:", error);
+
+    if (mensagemDoDia.mensagem) {
+      await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
+      await new Promise(resolve => setTimeout(resolve, 2000));
     }
+
+    if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
+      await client.sendMessage(targetNumber, mensagemDoDia.musica);
+      await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+
+    if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
+      await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
+    }
+
+    console.log(`✅ Mensagens enviadas com sucesso para ${dataAtual}`);
   } else {
     console.log(`⚠️ Nenhuma mensagem encontrada para ${dataAtual}`);
   }
@@ -70,8 +61,8 @@ async function enviarMensagensDoDia() {
 
 client.once("ready", async () => {
   console.log("✅ Bot conectado e pronto para enviar mensagens!");
-  const targetNumber = "553173571193@c.us";
 
+  const targetNumber = "553173571193@c.us";
   await client.sendMessage(targetNumber, "Bot conectado e funcionado!");
 
   schedule.scheduleJob("50 15 * * *", enviarMensagensDoDia);
