@@ -10,3 +10,6 @@
 [0813/220802.912:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
 [0813/220802.912:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
 [0813/220802.912:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[0813/221308.112:INFO:CONSOLE(898)] "Failed to parse video contentType: video/mp4; codecs=avc1.42000a", source: https://static.whatsapp.net/rsrc.php/v4iHzy4/yU/l/pt_BR-j/o-XaM4NDDMn.js (898)
+[0813/221308.112:INFO:CONSOLE(898)] "Failed to parse video contentType: video/mp4; codecs=hev1.1.6.L93.B0", source: https://static.whatsapp.net/rsrc.php/v4iHzy4/yU/l/pt_BR-j/o-XaM4NDDMn.js (898)
+[0813/221308.854:INFO:CONSOLE(114)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yQ/r/2_eqcbtY1w9.js (114)
