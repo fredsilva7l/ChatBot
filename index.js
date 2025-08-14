@@ -1,6 +1,7 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const schedule = require("node-schedule");
 const http = require("http");
+const qrcode = require("qrcode-terminal");
 
 const server = http.createServer((req, res) => {
   const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
@@ -16,10 +17,14 @@ const client = new Client({
   authStrategy: new LocalAuth(),
 });
 
+client.on('qr', (qr) => {
+  qrcode.generate(qr, { small: true });
+});
+
 client.once("ready", async () => {
-  schedule.scheduleJob("31 9 * * *", async () => {
-    const targetNumber = "553196550903@c.us";
-    await client.sendMessage(targetNumber, "Bom dia linda!");
+  schedule.scheduleJob("09 1 * * *", async () => {
+    const targetNumber = "553173571193@c.us";
+    await client.sendMessage(targetNumber, "Teste");
   });
 });
 
