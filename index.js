@@ -27,8 +27,8 @@ client.once("ready", async () => {
   // Envia mensagem imediatamente ao iniciar
   await client.sendMessage(targetNumber, "Teste de funcionamento do bot");
   // Mantém o agendamento, se desejar
-  schedule.scheduleJob("09 1 * * *", async () => {
-    await client.sendMessage(targetNumber, "Teste agendado");
+  schedule.scheduleJob("00 10 * * *", async () => {
+    await client.sendMessage(targetNumber, "Mensagem agendada ok!");
   });
 });
 

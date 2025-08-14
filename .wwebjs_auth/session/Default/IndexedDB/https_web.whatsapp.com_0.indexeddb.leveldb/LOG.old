@@ -1,31 +1,12 @@
-2025/08/13-23:08:57.958 590 Reusing MANIFEST C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/13-23:08:57.958 590 Recovering log #39
-2025/08/13-23:08:57.959 590 Reusing old log C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000039.log 
-2025/08/13-23:08:59.349 2e3c Compacting 1@1 + 1@2 files
-2025/08/13-23:08:59.411 2e3c Generated table #42@1: 13283 keys, 449431 bytes
-2025/08/13-23:08:59.411 2e3c Compacted 1@1 + 1@2 files => 449431 bytes
-2025/08/13-23:08:59.412 2e3c compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/13-23:08:59.413 2e3c Delete type=2 #38
-2025/08/13-23:08:59.413 2e3c Delete type=2 #40
-2025/08/13-23:08:59.925 2b04 Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-23:08:59.927 2b04 Level-0 table #44: started
-2025/08/13-23:08:59.931 2b04 Level-0 table #44: 22452 bytes OK
-2025/08/13-23:08:59.933 2b04 Delete type=0 #39
-2025/08/13-23:08:59.933 2b04 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-23:08:59.934 2b04 Level-0 table #46: started
-2025/08/13-23:08:59.958 2b04 Level-0 table #46: 454 bytes OK
-2025/08/13-23:08:59.959 2b04 Delete type=0 #43
-2025/08/13-23:08:59.959 2b04 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 62074 : 0
-2025/08/13-23:08:59.960 2b04 Compacting 1@0 + 1@1 files
-2025/08/13-23:08:59.965 2b04 Generated table #47@0: 477 keys, 13946 bytes
-2025/08/13-23:08:59.965 2b04 Compacted 1@0 + 1@1 files => 13946 bytes
-2025/08/13-23:08:59.966 2b04 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/08/13-23:08:59.967 2b04 Delete type=2 #46
-2025/08/13-23:08:59.967 2b04 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 62074 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-23:09:03.334 2b04 Compacting 1@1 + 1@2 files
-2025/08/13-23:09:03.389 2b04 Generated table #48@1: 13458 keys, 459613 bytes
-2025/08/13-23:09:03.389 2b04 Compacted 1@1 + 1@2 files => 459613 bytes
-2025/08/13-23:09:03.390 2b04 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/13-23:09:03.391 2b04 Delete type=2 #42
-2025/08/13-23:09:03.391 2b04 Delete type=2 #44
-2025/08/13-23:09:03.391 2b04 Delete type=2 #47
+2025/08/13-23:09:34.134 a8c Reusing MANIFEST C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/13-23:09:34.134 a8c Recovering log #45
+2025/08/13-23:09:34.161 a8c Reusing old log C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000045.log 
+2025/08/13-23:09:35.908 1c10 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/13-23:09:35.911 2524 Level-0 table #51: started
+2025/08/13-23:09:35.922 2524 Level-0 table #51: 147368 bytes OK
+2025/08/13-23:09:35.924 2524 Delete type=0 #45
+2025/08/13-23:09:35.924 2524 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/13-23:09:38.008 a8c Compacting 1@1 + 1@2 files
+2025/08/13-23:09:38.041 a8c Generated table #52@1: 14968 keys, 511466 bytes
+2025/08/13-23:09:38.041 a8c Compacted 1@1 + 1@2 files => 511466 bytes
+2025/08/13-23:09:38.042 a8c compacted to: files[ 0 0 1 0 0 0 0 ]

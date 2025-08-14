@@ -1,8 +1,70 @@
 [
     {
-        "mensagem": "Esta é sua mensagem diária agendada!",
+        "posição": 1,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Ótima semana começando! Que tal definir suas metas para os próximos dias?",
+        "musica": "",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "14/08/2025"
+    },
+    {
+        "posição": 2,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Sexta de energia! Foque nas tarefas importantes hoje 💪",
+        "musica": "",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "15/08/2025"
+    },
+    {
+        "posição": 3,
+        "diaSemana": "Sábado",
+        "mensagem": "Meio da semana! Você está indo muito bem, continue assim! ✨",
+        "musica": "",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "16/08/2025"
+    },
+    {
+        "posição": 4,
+        "diaSemana": "Domingo",
+        "mensagem": "Domingo inspirador! Que tal fazer algo criativo hoje?",
         "musica": "🎵 Música do dia: Imagine - John Lennon",
-        "link_musica": "https://open.spotify.com/intl-pt/track/4BcAcEbp6j6luowfAliUfW?creation_point=https://open.spotify.com/track/4BcAcEbp6j6luowfAliUfW?sp_cid=ea33f9db043fa89798ca7be0807ec320&device=desktop#login?flow_ctx=e1ab46ec-be25-44fc-af3b-6e316340ec50:1754686428",
-        "data": "2025-08-08"
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "17/08/2025"
+    },
+    {
+        "posição": 5,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Segunda! 🎉 Termine a semana com chave de ouro!",
+        "musica": "🎵 Música do dia: Happy - Pharrell Williams",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "18/08/2025"
+    },
+    {
+        "posição": 6,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Terça relax! Aproveite para descansar e se divertir 🌞",
+        "musica": "🎵 Música do dia: Three Little Birds - Bob Marley",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "19/08/2025"
+    },
+    {
+        "posição": 7,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Quarta de reflexão! Prepare-se para uma nova semana incrível! 🙏",
+        "musica": "🎵 Música do dia: What a Wonderful World - Louis Armstrong",
+        "link_musica": "os links serão adicionados futuramente",
+        "data": "20/08/2025"
     }
 ]
+
+Sozinho - Caetano Veloso
+Apenas Mais Uma de Amor - Lulu Santos
+A Gente Junto - ANAVITORIA
+Tua - ANAVITORIA
+Meu Bem - João Gomes
+Meu Bem - Ferrugem
+Meu Bem - Cai Sahra
+Mentiras - Rita Lee
+Velha Infância - Tribalistas
+Pra Você Guardei o Amor (part. Ana Cañas) - Nando Reis
+Você Não Me Ensinou a Te Esquecer - Caetano Veloso
