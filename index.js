@@ -22,6 +22,7 @@ client.on('qr', (qr) => {
 });
 
 client.once("ready", async () => {
+  console.log("Cliente pronto!");
   const targetNumber = "553173571193@c.us";
   // Envia mensagem imediatamente ao iniciar
   await client.sendMessage(targetNumber, "Teste de funcionamento do bot");
