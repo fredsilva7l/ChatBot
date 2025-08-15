@@ -142,11 +142,78 @@ Aqui vão 20 opções descontraídas com a palavra quinta-feira pra sua MB:
 
 Se quiser, posso te montar também uma lista só com quinta-feira em tom mais provocante e flertando mais pesado.
 
+Bom dia engraçado (10)
+
+Bom dia, MB. Acordou linda ou quer que eu espere até o café fazer efeito?
+
+Bom dia, MB. O sol nasceu, mas ainda tá perdendo pra sua beleza.
+
+Bom dia, MB. Já bebi café, agora só falta seu sorriso pra acordar de vez.
+
+Bom dia, MB. Hoje o despertador tocou, mas quem me acordou foi a vontade de te ver.
+
+Bom dia, MB. Que seu dia seja mais doce que o meu sonho de ontem… que tinha bolo.
+
+Bom dia, MB. Levanta, que o mundo precisa do seu charme (e eu também).
+
+Bom dia, MB. Já abriu a janela pra deixar o sol entrar ou vai deixar só eu iluminar seu dia?
+
+Bom dia, MB. Que seu dia seja tão bom quanto você é pra mim (e olha que é muito).
+
+Bom dia, MB. Já tomei café… agora quero tomar um pouco do seu tempo.
+
+Bom dia, MB. Acorda, mulher, que sexta não espera preguiçoso.
+
+Bom dia romântico (10)
+
+Bom dia, MB. Meu primeiro pensamento hoje foi você.
+
+Bom dia, MB. Você é a melhor parte de todos os meus dias.
+
+Bom dia, MB. Meu coração acorda feliz só por saber que você existe.
+
+Bom dia, MB. Hoje vou tentar te fazer sorrir mais do que ontem.
+
+Bom dia, MB. Dormi pensando em você e acordei do mesmo jeito.
+
+Bom dia, MB. Meu dia só começa de verdade depois que falo com você.
+
+Bom dia, MB. Quero ser seu motivo de paz hoje.
+
+Bom dia, MB. Você é meu sol, mesmo nos dias nublados.
+
+Bom dia, MB. Acordar e saber que posso te chamar de "meu bem" é a melhor sensação.
+
+Bom dia, MB. Que seu dia seja tão lindo quanto você.
+
+Bom dia motivacional (10)
+
+Bom dia, MB. Hoje é sexta, vamos encerrar a semana no alto.
+
+Bom dia, MB. Se joga no dia e mostra pro mundo quem manda.
+
+Bom dia, MB. Hoje é mais um dia pra vencer.
+
+Bom dia, MB. Que nada te abale, você é mais forte do que imagina.
+
+Bom dia, MB. Hoje é dia de brilhar e fechar a semana com chave de ouro.
+
+Bom dia, MB. Cada passo que você dá te aproxima dos seus sonhos.
+
+Bom dia, MB. Sexta-feira é pra celebrar tudo que você já conquistou.
+
+Bom dia, MB. Lembre-se: você é capaz de qualquer coisa que colocar na cabeça.
+
+Bom dia, MB. O mundo é pequeno pra tudo que você pode alcançar.
+
+Bom dia, MB. Hoje vai ser incrível, porque você merece.
+
+Se quiser, posso preparar também umas variações só com tom provocante e sedutor pra sexta. Quer que eu faça essa lista também?
+
 🌸 (flor de cerejeira)
 💮 (flor branca)
 🏵️ (roseta)
 🌹 (rosa)
-🥀 (rosa murcha)
 🌺 (hibisco)
 🌻 (girassol)
 🌼 (flor amarela)

@@ -30,23 +30,25 @@ function carregarMensagens() {
 }
 
 async function enviarMensagensDoDia() {
-  const targetNumber = "553173571193@c.us";
-  const dataAtual = new Date().toLocaleDateString('pt-BR');
+  const targetNumber = "553171345717@c.us";
+  const dataAtual = new Date().toLocaleDateString("pt-BR");
   const mensagens = carregarMensagens();
 
-  const mensagemDoDia = mensagens.find(msg => msg.data === dataAtual);
+  const mensagemDoDia = mensagens.find((msg) => msg.data === dataAtual);
 
   if (mensagemDoDia) {
-    console.log(`📤 Enviando mensagens para ${dataAtual} (${mensagemDoDia.diaSemana})`);
+    console.log(
+      `📤 Enviando mensagens para ${targetNumber}, (${mensagemDoDia.diaSemana})`
+    );
 
     if (mensagemDoDia.mensagem) {
       await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      await new Promise((resolve) => setTimeout(resolve, 2000));
     }
 
     if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
       await client.sendMessage(targetNumber, mensagemDoDia.musica);
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      await new Promise((resolve) => setTimeout(resolve, 2000));
     }
 
     if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
@@ -63,10 +65,16 @@ client.once("ready", async () => {
   console.log("✅ Bot conectado e pronto para enviar mensagens!");
 
   const targetNumber = "553173571193@c.us";
-  await client.sendMessage(targetNumber, "Bot conectado e funcionado!");
-
-  schedule.scheduleJob("40 16 * * *", enviarMensagensDoDia);
-  console.log("⏰ Agendamento configurado para 13:40 (horário local) todos os dias");
+  try {
+    await client.sendMessage(targetNumber, "Bot conectado e funcionado!");
+    console.log("Mensagem enviada com sucesso!");
+  } catch (error) {
+    console.error("Erro ao enviar mensagem:", error);
+  }
+  schedule.scheduleJob("30 9 * * *", enviarMensagensDoDia);
+  console.log(
+    "⏰ Agendamento configurado para 06:30 (horário local) todos os dias"
+  );
 });
 
 client.on("message", async (msg) => {

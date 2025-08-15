@@ -1,12 +1,3 @@
-2025/08/13-23:09:34.134 a8c Reusing MANIFEST C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/13-23:09:34.134 a8c Recovering log #45
-2025/08/13-23:09:34.161 a8c Reusing old log C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000045.log 
-2025/08/13-23:09:35.908 1c10 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-23:09:35.911 2524 Level-0 table #51: started
-2025/08/13-23:09:35.922 2524 Level-0 table #51: 147368 bytes OK
-2025/08/13-23:09:35.924 2524 Delete type=0 #45
-2025/08/13-23:09:35.924 2524 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-23:09:38.008 a8c Compacting 1@1 + 1@2 files
-2025/08/13-23:09:38.041 a8c Generated table #52@1: 14968 keys, 511466 bytes
-2025/08/13-23:09:38.041 a8c Compacted 1@1 + 1@2 files => 511466 bytes
-2025/08/13-23:09:38.042 a8c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/14-21:02:43.388 13a8 Reusing MANIFEST C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/14-21:02:43.389 13a8 Recovering log #62
+2025/08/14-21:02:43.444 13a8 Reusing old log C:\Users\frederico.junior\Desktop\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000062.log 
