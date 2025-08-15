@@ -88,149 +88,103 @@ Inclua sempre um gatilho emocional sutil, como:
 
 Evite clichês batidos. Priorize sensibilidade e originalidade.
 
+
+
 "Boa tarde, MB ❤️ Que sua quinta seja tão linda quanto o seu sorriso."
 
-"Boa tarde, MB 😘 Já pensei em você hoje? Sim. Já sorri sozinho? Também."
-
-"Boa tarde, minha MB 💛 Que sua tarde seja leve e feliz… igual eu fico quando falo com você."
-
-"Ei, MB… boa tarde! Que tal deixar essa quinta ainda melhor me mandando um oi?"
-
-"Boa tarde, MB 🌹 Só passando pra lembrar que você é especial todos os dias."
-
-Aqui vão 20 opções descontraídas com a palavra quinta-feira pra sua MB:
-
-"Boa tarde, MB! Quinta-feira combina com café… e com você na minha mente."
-
-"MB, essa quinta-feira tá bonita, mas ainda não chega aos seus pés."
-
-"Boa tarde, MB. Quinta-feira é quase sexta, mas ainda longe do tanto que quero te ver."
-
-"MB, quinta-feira e eu aqui pensando: será que já posso te sequestrar pro fim de semana?"
-
-"Boa tarde, MB! Quinta-feira é aquele dia que pede um sorriso seu pra melhorar."
-
-"MB, quinta-feira… e eu aqui firme e forte tentando não te mandar mensagem a cada 5 minutos."
-
-"Boa tarde, MB! Quinta-feira é o dia perfeito pra lembrar que gosto muito de você."
-
-"MB, essa quinta-feira só tem graça porque eu posso te mandar mensagem."
-
-"Boa tarde, MB! Quinta-feira é pré-sexta… ou seja, já dá pra começar a sentir saudade do fim de semana com você."
-
-"MB, quinta-feira é o meio do caminho… mas com você, qualquer caminho fica melhor."
-
-"Boa tarde, MB! Quinta-feira é só um aquecimento pro tanto de conversa boa que a gente ainda vai ter."
-
-"MB, quinta-feira tá aqui me perguntando se você tá sorrindo agora."
-
-"Boa tarde, MB! Quinta-feira merece ser vivida com leveza… e você é minha leveza."
-
-"MB, quinta-feira e eu já tô sonhando com a próxima vez que vou te ver."
-
-"Boa tarde, MB! Quinta-feira é o dia oficial de pensar besteira… e a maioria envolve você."
-
-"MB, quinta-feira é quase fim de semana, mas eu já queria que fosse quase você na minha frente."
-
-"Boa tarde, MB! Quinta-feira me lembra que a semana tá acabando… e que minha paciência pra ficar longe de você também."
-
-"MB, quinta-feira é dia de boas notícias… a minha foi que você existe."
-
-"Boa tarde, MB! Quinta-feira só fica melhor se você me responder agora."
-
-"MB, quinta-feira com mensagem minha é carinho… sem mensagem minha é injustiça."
-
-Se quiser, posso te montar também uma lista só com quinta-feira em tom mais provocante e flertando mais pesado.
-
-Bom dia engraçado (10)
-
-Bom dia, MB. Acordou linda ou quer que eu espere até o café fazer efeito?
-
-Bom dia, MB. O sol nasceu, mas ainda tá perdendo pra sua beleza.
-
-Bom dia, MB. Já bebi café, agora só falta seu sorriso pra acordar de vez.
-
-Bom dia, MB. Hoje o despertador tocou, mas quem me acordou foi a vontade de te ver.
-
-Bom dia, MB. Que seu dia seja mais doce que o meu sonho de ontem… que tinha bolo.
-
-Bom dia, MB. Levanta, que o mundo precisa do seu charme (e eu também).
-
-Bom dia, MB. Já abriu a janela pra deixar o sol entrar ou vai deixar só eu iluminar seu dia?
-
-Bom dia, MB. Que seu dia seja tão bom quanto você é pra mim (e olha que é muito).
-
-Bom dia, MB. Já tomei café… agora quero tomar um pouco do seu tempo.
-
-Bom dia, MB. Acorda, mulher, que sexta não espera preguiçoso.
-
-Bom dia romântico (10)
-
-Bom dia, MB. Meu primeiro pensamento hoje foi você.
-
-Bom dia, MB. Você é a melhor parte de todos os meus dias.
-
-Bom dia, MB. Meu coração acorda feliz só por saber que você existe.
-
-Bom dia, MB. Hoje vou tentar te fazer sorrir mais do que ontem.
-
-Bom dia, MB. Dormi pensando em você e acordei do mesmo jeito.
-
-Bom dia, MB. Meu dia só começa de verdade depois que falo com você.
-
-Bom dia, MB. Quero ser seu motivo de paz hoje.
-
-Bom dia, MB. Você é meu sol, mesmo nos dias nublados.
-
-Bom dia, MB. Acordar e saber que posso te chamar de "meu bem" é a melhor sensação.
-
-Bom dia, MB. Que seu dia seja tão lindo quanto você.
-
-Bom dia motivacional (10)
-
-Bom dia, MB. Hoje é sexta, vamos encerrar a semana no alto.
-
-Bom dia, MB. Se joga no dia e mostra pro mundo quem manda.
-
-Bom dia, MB. Hoje é mais um dia pra vencer.
-
-Bom dia, MB. Que nada te abale, você é mais forte do que imagina.
-
-Bom dia, MB. Hoje é dia de brilhar e fechar a semana com chave de ouro.
-
-Bom dia, MB. Cada passo que você dá te aproxima dos seus sonhos.
-
-Bom dia, MB. Sexta-feira é pra celebrar tudo que você já conquistou.
-
-Bom dia, MB. Lembre-se: você é capaz de qualquer coisa que colocar na cabeça.
-
-Bom dia, MB. O mundo é pequeno pra tudo que você pode alcançar.
-
-Bom dia, MB. Hoje vai ser incrível, porque você merece.
-
-Se quiser, posso preparar também umas variações só com tom provocante e sedutor pra sexta. Quer que eu faça essa lista também?
-
-🌸 (flor de cerejeira)
-💮 (flor branca)
-🏵️ (roseta)
 🌹 (rosa)
+🌸 (flor de cerejeira)
 🌺 (hibisco)
 🌻 (girassol)
 🌼 (flor amarela)
 🌷 (tulipa)
 💐 (buquê)
-🌿 (erva)
-☘️ (trevo de três folhas)
-🍀 (trevo de quatro folhas)
-🌱 (broto)
-🪴 (planta em vaso)
-🍃 (folhas ao vento)
-🍂 (folha caída)
-🍁 (folha de bordo)
-🌾 (espiga de arroz)
-🎍 (arranjo de bambu)
-🎋 (árvore de Tanabata)
-🪻 (jacinto)
+
+
+
+Segunda-feira 🌻
+
+Bom dia mb🌻 Segunda é difícil, mas com você até fila de banco parece divertida.
+
+Bom dia mb🌻 Hoje é dia de começar com café forte e pensamento positivo… tipo você.
+
+Bom dia mb🌻 Segunda pede calma, mas pede muito mais o seu sorriso.
+
+Bom dia mb🌻 Levanta que o mundo não gira sem sua beleza pra dar equilíbrio.
+
+Bom dia mb🌻 Segunda é só o começo, e você já é o melhor capítulo.
+
+Terça-feira 🌼
+
+Bom dia mb🌼 Terça é um lembrete de que a semana já tem você dentro dela.
+
+Bom dia mb🌼 Dia perfeito pra provar que leveza e beleza andam juntas… igual você.
+
+Bom dia mb🌼 Terça é só um treino pra sexta, mas já dá pra pensar em você.
+
+Bom dia mb🌼 Hoje não precisa ser perfeito, só precisa ter você.
+
+Bom dia mb🌼 Que hoje seja tão suave quanto sua voz na minha cabeça.
+
+Quarta-feira 🌷
+
+Bom dia mb🌷 Quarta é metade da semana e o dobro da saudade.
+
+Bom dia mb🌷 Hoje a meta é: trabalhar um pouco e pensar muito em você.
+
+Bom dia mb🌷 Quarta já tem gostinho de vitória… igual quando você sorri.
+
+Bom dia mb🌷 A semana passa mais rápido quando eu lembro que você existe.
+
+Bom dia mb🌷 Hoje tem clima de meio-termo, menos quando o assunto é gostar de você.
+
+Quinta-feira 🌺
+
+Bom dia mb🌺 Quinta é aquela esperança disfarçada de ansiedade pra sexta.
+
+Bom dia mb🌺 Já pensou se todo dia tivesse o brilho que você tem?
+
+Bom dia mb🌺 Quinta é quase sexta, mas ainda dá tempo de eu te ver.
+
+Bom dia mb🌺 Hoje é dia de caprichar no sorriso, igual você capricha no charme.
+
+Bom dia mb🌺 Quinta combina com energia boa… e você tem de sobra.
+
+Sexta-feira 🌹
+
+Bom dia mb🌹 Hoje é dia oficial de pensar besteira… e você tá em todas.
+
+Bom dia mb🌹 Sexta é quando o corpo relaxa, mas a mente só pensa em você.
+
+Bom dia mb🌹 Hoje é dia de comemorar, principalmente por você existir.
+
+Bom dia mb🌹 O fim de semana tá chegando, e minha vontade de te ver também.
+
+Bom dia mb🌹 Hoje tudo fica mais bonito, mas ainda não chega no seu nível.
+
+Sábado 🌸
+
+Bom dia mb🌸 Sábado é lindo, mas você ainda ganha.
+
+Bom dia mb🌸 Hoje é dia de relaxar e deixar a vida mais leve… tipo quando você aparece.
+
+Bom dia mb🌸 Sábado é café na cama e você na cabeça.
+
+Bom dia mb🌸 O dia começou bonito, mas ficou perfeito quando pensei em você.
+
+Bom dia mb🌸 Hoje é pra curtir, e se for com você, melhor ainda.
+
+Domingo 🌼
+
+Bom dia mb🌼 Domingo é pra descansar o corpo e agitar o coração.
+
+Bom dia mb🌼 Hoje a preguiça é grande, mas a vontade de te ver é maior.
+
+Bom dia mb🌼 Domingo tem cheiro de calma e gosto de saudade sua.
+
+Bom dia mb🌼 Que seu dia seja tão sereno quanto sua presença.
+
+Bom dia mb🌼 Domingo é o suspiro antes da semana… e você é meu suspiro favorito.
 
 
 

@@ -2,7 +2,7 @@
     {
         "posição": 1,
         "diaSemana": "Quinta-feira",
-        "mensagem": "Oi mb 💐 Nesta quinta, deixo no ar um carinho só pra você.",
+        "mensagem": "Oi mb. Nesta quinta, deixo no ar um carinho só pra você.",
         "musica": "Abril - ANAVITÓRIA",
         "link_musica": "https://open.spotify.com/intl-pt/track/66rU4Dff6qFAhia56xRs8E",
         "data": "14/08/2025"
@@ -11,48 +11,136 @@
         "posição": 2,
         "diaSemana": "Sexta-feira",
         "mensagem": "Bom dia mb🌹 Hoje é dia de brilhar e fechar a semana com chave de ouro.",
-        "musica": "A Gente Junto - ANAVITORIA",
+        "musica": "A Gente Junto - ANAVITÓRIA",
         "link_musica": "https://open.spotify.com/intl-pt/track/6AFA2QKlJfTdfKJqnBI3aB",
         "data": "15/08/2025"
     },
     {
         "posição": 3,
         "diaSemana": "Sábado",
-        "mensagem": "Sábado relaxante! Você está indo muito bem, continue assim! ✨",
-        "musica": "",
-        "link_musica": "os links serão adicionados futuramente",
+        "mensagem": "Bom dia mb🌸 Sábado é maravilhoso mas ainda não chega aos seus pés.",
+        "musica": "Linda - Projota",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6wnCBT8ip4i9HRhM3HVk6d",
         "data": "16/08/2025"
     },
     {
         "posição": 4,
         "diaSemana": "Domingo",
-        "mensagem": "Domingo inspirador! Que tal fazer algo criativo hoje?",
-        "musica": "Tua - ANAVITORIA",
-        "link_musica": "os links serão adicionados futuramente",
+        "mensagem": "Bom dia mb🌺 Espero que consiga aproveitar o domingo com muita leveza…",
+        "musica": "Mais um na multidão",
+        "link_musica": "https://open.spotify.com/intl-pt/track/4oOD9dL7rtVz2s83UBElEG",
         "data": "17/08/2025"
     },
     {
         "posição": 5,
         "diaSemana": "Segunda-feira",
-        "mensagem": "Segunda! 🎉 Comece a semana com chave de ouro!",
-        "musica": "",
-        "link_musica": "os links serão adicionados futuramente",
+        "mensagem": "Bom dia mb🌻 Segunda-feira é aquele dia que pede um sorriso seu pra melhorar.",
+        "musica": "Depois - Marisa Monte",
+        "link_musica": "https://open.spotify.com/intl-pt/track/2yeI0FRWd1sqGpHEUc5DFm",
         "data": "18/08/2025"
     },
     {
         "posição": 6,
         "diaSemana": "Terça-feira",
-        "mensagem": "Terça produtiva! Continue com essa energia 🌞",
-        "musica": "",
-        "link_musica": "os links serão adicionados futuramente",
+        "mensagem": "Bom dia mb🌼 Só passando pra lembrar que você é especial todos os dias",
+        "musica": "Bem Que Se Quis - Marisa Monte",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6tAug9ksGLZb2z1RfPZJMo",
         "data": "19/08/2025"
     },
     {
         "posição": 7,
         "diaSemana": "Quarta-feira",
-        "mensagem": "Quarta de reflexão! Prepare-se para mais conquistas! 🙏",
+        "mensagem": "Bom dia mb🌷 Que sua tarde seja leve e feliz…",
         "musica": "",
-        "link_musica": "os links serão adicionados futuramente",
+        "link_musica": "",
         "data": "20/08/2025"
+    },
+    {
+        "posição": 8,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb💐 Que sua quinta seja tão linda quanto o seu sorriso.",
+        "musica": "",
+        "link_musica": "",
+        "data": "21/08/2025"
+    },
+    {
+        "posição": 9,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb🌹 Sexta-feira é o dia oficial de pensar besteira… e a maioria envolve você.",
+        "musica": "",
+        "link_musica": "",
+        "data": "22/08/2025"
+    },
+    {
+        "posição": 10,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb🌸 Sábado é maravilhoso mas ainda não chega aos seus pés.",
+        "musica": "",
+        "link_musica": "",
+        "data": "23/08/2025"
+    },
+    {
+        "posição": 11,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb🌺 Espero que consiga aproveitar o domingo com muita leveza…",
+        "musica": "",
+        "link_musica": "",
+        "data": "24/08/2025"
+    },
+    {
+        "posição": 12,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb🌻 Segunda-feira é aquele dia que pede um sorriso seu pra melhorar.",
+        "musica": "",
+        "link_musica": "",
+        "data": "25/08/2025"
+    },
+    {
+        "posição": 13,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb🌼 Só passando pra lembrar que você é especial todos os dias",
+        "musica": "",
+        "link_musica": "",
+        "data": "26/08/2025"
+    },
+    {
+        "posição": 14,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb🌷 Que sua tarde seja leve e feliz…",
+        "musica": "",
+        "link_musica": "",
+        "data": "27/08/2025"
+    },
+    {
+        "posição": 15,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb💐 Que sua quinta seja tão linda quanto o seu sorriso.",
+        "musica": "",
+        "link_musica": "",
+        "data": "28/08/2025"
+    },
+    {
+        "posição": 16,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb🌹 Sexta-feira é o dia oficial de pensar besteira… e a maioria envolve você.",
+        "musica": "",
+        "link_musica": "",
+        "data": "29/08/2025"
+    },
+    {
+        "posição": 17,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb🌸 Sábado é maravilhoso mas ainda não chega aos seus pés.",
+        "musica": "",
+        "link_musica": "",
+        "data": "30/08/2025"
+    },
+    {
+        "posição": 18,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb🌺 Espero que consiga aproveitar o domingo com muita leveza…",
+        "musica": "",
+        "link_musica": "",
+        "data": "31/08/2025"
     }
 ]
