@@ -3,11 +3,19 @@ const schedule = require("node-schedule");
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+const myNumber = "553173571193@c.us";
+const targetNumber = "553171345717@c.us";
 
 const server = http.createServer((req, res) => {
-  const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end(mensagem);
+  try {
+    const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end(mensagem);
+  } catch (error) {
+    console.error("Erro no servidor HTTP:", error);
+    res.writeHead(500, { "Content-Type": "text/plain" });
+    res.end("Erro interno do servidor");
+  }
 });
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
@@ -30,44 +38,87 @@ function carregarMensagens() {
 }
 
 async function enviarMensagensDoDia() {
-  const targetNumber = "553171345717@c.us";
   const dataAtual = new Date().toLocaleDateString("pt-BR");
-  const mensagens = carregarMensagens();
 
-  const mensagemDoDia = mensagens.find((msg) => msg.data === dataAtual);
+  let mensagens;
+  try {
+    mensagens = carregarMensagens();
+  } catch (error) {
+    console.error("Erro ao carregar mensagens:", error);
+    return;
+  }
+
+  let mensagemDoDia;
+  try {
+    mensagemDoDia = mensagens.find((msg) => msg.data === dataAtual);
+  } catch (error) {
+    console.error("Erro ao buscar mensagem do dia:", error);
+    return;
+  }
 
   if (mensagemDoDia) {
     console.log(
-      `📤 Enviando mensagens para ${targetNumber}, (${mensagemDoDia.diaSemana})`
+      `📤 Enviando mensagem (${mensagemDoDia.diaSemana}) para ${targetNumber}, `
     );
 
     if (mensagemDoDia.mensagem) {
-      await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      try {
+        await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        console.log("✅ Mensagem de texto enviada");
+      } catch (error) {
+        console.error("Erro ao enviar mensagem de texto:", error);
+      }
     }
 
     if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
-      await client.sendMessage(targetNumber, mensagemDoDia.musica);
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      try {
+        await client.sendMessage(targetNumber, mensagemDoDia.musica);
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        console.log("✅ Música enviada");
+      } catch (error) {
+        console.error("Erro ao enviar música:", error);
+      }
     }
 
     if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
-      await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
+      try {
+        await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        console.log("✅ Link da música enviado");
+      } catch (error) {
+        console.error("Erro ao enviar link da música:", error);
+      }
     }
 
-    console.log(`✅ Mensagens enviadas com sucesso para ${dataAtual}`);
+    try {
+      await client.sendMessage(myNumber, `✅ Função executada com sucesso!}!`);
+      console.log("✅ Processo finalizado com sucesso!");
+    } catch (error) {
+      console.error("Erro ao enviar confirmação:", error);
+    }
+
+    console.log(`✅ Processo finalizado para ${dataAtual}`);
   } else {
     console.log(`⚠️ Nenhuma mensagem encontrada para ${dataAtual}`);
+    try {
+      await client.sendMessage(
+        myNumber,
+        "Nenhuma mensagem encontrada para hoje."
+      );
+      console.log("Erro ao enviar mensagem para meu número");
+    } catch (error) {
+      console.error("Erro ao enviar mensagem para meu número:", error);
+    }
   }
 }
 
 client.once("ready", async () => {
   console.log("✅ Bot conectado e pronto para enviar mensagens!");
 
-  const targetNumber = "553173571193@c.us";
   try {
-    await client.sendMessage(targetNumber, "Bot conectado e funcionado!");
-    console.log("Mensagem enviada com sucesso!");
+    await client.sendMessage(myNumber, "Bot conectado e funcionado!");
+    console.log("✅ Mensagem de conexão enviada com sucesso!");
   } catch (error) {
     console.error("Erro ao enviar mensagem:", error);
   }
@@ -78,7 +129,17 @@ client.once("ready", async () => {
 });
 
 client.on("message", async (msg) => {
-  await msg.reply("Esse número é só para envio de mensagens");
+  try {
+    await msg.reply("Esse número é só para envio de mensagens automáticas.");
+  } catch (error) {
+    console.error("Erro ao responder mensagem:", error);
+  }
 });
 
-client.initialize();
+try {
+  client.initialize();
+  console.log("🚀 Inicializando cliente WhatsApp...");
+} catch (error) {
+  console.error("❌ Erro na inicialização do cliente:", error);
+  process.exit(1);
+}
