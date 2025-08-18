@@ -61,10 +61,18 @@ async function enviarMensagensDoDia() {
       `📤 Enviando mensagem (${mensagemDoDia.diaSemana}) para ${targetNumber}, `
     );
 
+    try {
+      await client.sendMessage(myNumber, `✅ Função Iniciada com sucesso!`);
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+      console.log("✅ Processo finalizado com sucesso!");
+    } catch (error) {
+      console.error("Erro ao enviar confirmação:", error);
+    }
+
     if (mensagemDoDia.mensagem) {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
-        await new Promise((resolve) => setTimeout(resolve, 2000));
+        await new Promise((resolve) => setTimeout(resolve, 5000));
         console.log("✅ Mensagem de texto enviada");
       } catch (error) {
         console.error("Erro ao enviar mensagem de texto:", error);
@@ -74,7 +82,7 @@ async function enviarMensagensDoDia() {
     if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.musica);
-        await new Promise((resolve) => setTimeout(resolve, 2000));
+        await new Promise((resolve) => setTimeout(resolve, 5000));
         console.log("✅ Música enviada");
       } catch (error) {
         console.error("Erro ao enviar música:", error);
@@ -84,18 +92,10 @@ async function enviarMensagensDoDia() {
     if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
-        await new Promise((resolve) => setTimeout(resolve, 2000));
         console.log("✅ Link da música enviado");
       } catch (error) {
         console.error("Erro ao enviar link da música:", error);
       }
-    }
-
-    try {
-      await client.sendMessage(myNumber, `✅ Função executada com sucesso!}!`);
-      console.log("✅ Processo finalizado com sucesso!");
-    } catch (error) {
-      console.error("Erro ao enviar confirmação:", error);
     }
 
     console.log(`✅ Processo finalizado para ${dataAtual}`);
