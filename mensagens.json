@@ -59,23 +59,23 @@
         "posição": 8,
         "diaSemana": "Quinta-feira",
         "mensagem": "Bom dia mb! Que sua quinta seja tão linda quanto o seu sorriso.",
-        "musica": "",
-        "link_musica": "",
+        "musica": "Your Song - Elton John",
+        "link_musica": "https://open.spotify.com/intl-pt/track/38zsOOcu31XbbYj9BIPUF1",
         "data": "21/08/2025"
     },
     {
         "posição": 9,
         "diaSemana": "Sexta-feira",
         "mensagem": "Bom dia mb! Sexta-feira é o dia oficial de pensar besteira… e a maioria envolve você.",
-        "musica": "",
-        "link_musica": "",
+        "musica": "Hello - Lionel Richie",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6HMvJcdw6qLsyV1b5x29sa",
         "data": "22/08/2025"
     },
     {
         "posição": 10,
         "diaSemana": "Sábado",
         "mensagem": "Bom dia mb! Sábado é maravilhoso mas ainda não chega aos seus pés.",
-        "musica": "",
+        "musica": "Can't Help Falling in Love - Elvis Presley",
         "link_musica": "",
         "data": "23/08/2025"
     },
@@ -83,16 +83,16 @@
         "posição": 11,
         "diaSemana": "Domingo",
         "mensagem": "Bom dia mb! Espero que consiga aproveitar o domingo com muita leveza…",
-        "musica": "",
-        "link_musica": "",
+        "musica": "Darlin - The Beach Boys",
+        "link_musica": "https://open.spotify.com/search/Can't%20Help%20Falling%20in%20Love%20-%20Elvis%20Presley",
         "data": "24/08/2025"
     },
     {
         "posição": 12,
         "diaSemana": "Segunda-feira",
         "mensagem": "Bom dia mb! Segunda-feira é aquele dia que pede um sorriso seu pra melhorar.",
-        "musica": "",
-        "link_musica": "",
+        "musica": "Making Love Out Of Nothing At All - Air Suplly",
+        "link_musica": "https://open.spotify.com/search/Making%20Love%20Out%20Of%20Nothing%20At%20All%20-%20Air%20Suplly",
         "data": "25/08/2025"
     },
     {
