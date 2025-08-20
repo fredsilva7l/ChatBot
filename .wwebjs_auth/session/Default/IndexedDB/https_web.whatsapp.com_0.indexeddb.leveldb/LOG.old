@@ -1,13 +1,13 @@
-2025/08/17-21:31:34.960 41f4 Reusing MANIFEST D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/17-21:31:34.970 41f4 Recovering log #66
-2025/08/17-21:31:35.187 41f4 Reusing old log D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000066.log 
-2025/08/17-21:31:35.187 41f4 Delete type=2 #64
-2025/08/17-21:31:35.187 41f4 Delete type=2 #67
-2025/08/17-21:31:39.693 18e0 Level-0 table #71: started
-2025/08/17-21:31:39.713 18e0 Level-0 table #71: 806034 bytes OK
-2025/08/17-21:31:39.714 18e0 Delete type=0 #66
-2025/08/17-21:31:39.714 18e0 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/17-21:31:41.875 2620 Compacting 1@1 + 1@2 files
-2025/08/17-21:31:41.953 2620 Generated table #72@1: 29362 keys, 1043903 bytes
-2025/08/17-21:31:41.953 2620 Compacted 1@1 + 1@2 files => 1043903 bytes
-2025/08/17-21:31:41.954 2620 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/17-21:33:25.030 315c Reusing MANIFEST D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/17-21:33:25.031 315c Recovering log #70
+2025/08/17-21:33:25.288 315c Reusing old log D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000070.log 
+2025/08/17-21:33:25.288 315c Delete type=2 #68
+2025/08/17-21:33:25.288 315c Delete type=2 #71
+2025/08/17-21:33:26.740 315c Level-0 table #75: started
+2025/08/17-21:33:26.768 315c Level-0 table #75: 680725 bytes OK
+2025/08/17-21:33:26.769 315c Delete type=0 #70
+2025/08/17-21:33:26.769 315c Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/17-21:33:28.933 2b14 Compacting 1@1 + 1@2 files
+2025/08/17-21:33:28.990 2b14 Generated table #76@1: 30186 keys, 1068952 bytes
+2025/08/17-21:33:28.990 2b14 Compacted 1@1 + 1@2 files => 1068952 bytes
+2025/08/17-21:33:28.991 2b14 compacted to: files[ 0 0 1 0 0 0 0 ]
