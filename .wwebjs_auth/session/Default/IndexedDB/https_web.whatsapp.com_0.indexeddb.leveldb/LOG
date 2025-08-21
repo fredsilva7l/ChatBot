@@ -1,13 +1,15 @@
-2025/08/20-22:23:32.671 28c Reusing MANIFEST D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/20-22:23:32.681 28c Recovering log #84
-2025/08/20-22:23:32.790 28c Reusing old log D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000084.log 
-2025/08/20-22:23:32.790 28c Delete type=2 #83
-2025/08/20-22:23:32.791 28c Delete type=2 #85
-2025/08/20-22:23:37.320 28c Level-0 table #89: started
-2025/08/20-22:23:37.335 28c Level-0 table #89: 698002 bytes OK
-2025/08/20-22:23:37.336 28c Delete type=0 #84
-2025/08/20-22:23:37.337 28c Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/20-22:23:39.592 42e4 Compacting 1@1 + 1@2 files
-2025/08/20-22:23:39.711 42e4 Generated table #90@1: 43707 keys, 1720667 bytes
-2025/08/20-22:23:39.711 42e4 Compacted 1@1 + 1@2 files => 1720667 bytes
-2025/08/20-22:23:39.712 42e4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/20-22:35:11.621 154 Reusing MANIFEST D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/20-22:35:11.621 154 Recovering log #88
+2025/08/20-22:35:11.654 154 Reusing old log D:\ChatBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000088.log 
+2025/08/20-22:35:11.655 154 Delete type=2 #86
+2025/08/20-22:35:11.655 154 Delete type=2 #89
+2025/08/20-22:35:16.199 154 Level-0 table #93: started
+2025/08/20-22:35:16.206 154 Level-0 table #93: 251293 bytes OK
+2025/08/20-22:35:16.207 154 Delete type=0 #88
+2025/08/20-22:35:16.207 154 Manual compaction at level-0 from '\x00*\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/20-22:35:18.250 2600 Compacting 1@1 + 1@2 files
+2025/08/20-22:35:18.326 2600 Generated table #94@1: 44522 keys, 1741045 bytes
+2025/08/20-22:35:18.326 2600 Compacted 1@1 + 1@2 files => 1741045 bytes
+2025/08/20-22:35:18.327 2600 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/20-22:35:18.327 2600 Delete type=2 #90
+2025/08/20-22:35:18.327 2600 Delete type=2 #93
