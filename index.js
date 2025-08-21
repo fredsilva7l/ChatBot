@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
 });
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`🌐 Servidor HTTP rodando na porta ${PORT}`);
+  console.log(`Servidor HTTP rodando na porta ${PORT}`);
 });
 
 const client = new Client({
@@ -58,13 +58,13 @@ async function enviarMensagensDoDia() {
 
   if (mensagemDoDia) {
     console.log(
-      `📤 Enviando mensagem (${mensagemDoDia.diaSemana}) para ${targetNumber}, `
+      `Enviando mensagem (${mensagemDoDia.diaSemana}) para ${targetNumber}, `
     );
 
     try {
-      await client.sendMessage(myNumber, `✅ Função Iniciada com sucesso!`);
+      await client.sendMessage(myNumber, `Função Iniciada com sucesso!`);
       await new Promise((resolve) => setTimeout(resolve, 5000));
-      console.log("✅ Processo finalizado com sucesso!");
+      console.log("Processo finalizado com sucesso!");
     } catch (error) {
       console.error("Erro ao enviar confirmação:", error);
     }
@@ -73,7 +73,7 @@ async function enviarMensagensDoDia() {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
         await new Promise((resolve) => setTimeout(resolve, 5000));
-        console.log("✅ Mensagem de texto enviada");
+        console.log("Mensagem de texto enviada");
       } catch (error) {
         console.error("Erro ao enviar mensagem de texto:", error);
       }
@@ -83,7 +83,7 @@ async function enviarMensagensDoDia() {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.musica);
         await new Promise((resolve) => setTimeout(resolve, 5000));
-        console.log("✅ Música enviada");
+        console.log("Música enviada");
       } catch (error) {
         console.error("Erro ao enviar música:", error);
       }
@@ -92,15 +92,15 @@ async function enviarMensagensDoDia() {
     if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
       try {
         await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
-        console.log("✅ Link da música enviado");
+        console.log("Link da música enviado");
       } catch (error) {
         console.error("Erro ao enviar link da música:", error);
       }
     }
 
-    console.log(`✅ Processo finalizado para ${dataAtual}`);
+    console.log(`Processo finalizado para ${dataAtual}`);
   } else {
-    console.log(`⚠️ Nenhuma mensagem encontrada para ${dataAtual}`);
+    console.log(`Nenhuma mensagem encontrada para ${dataAtual}`);
     try {
       await client.sendMessage(
         myNumber,
@@ -114,17 +114,17 @@ async function enviarMensagensDoDia() {
 }
 
 client.once("ready", async () => {
-  console.log("✅ Bot conectado e pronto para enviar mensagens!");
+  console.log("Bot conectado e pronto para enviar mensagens!");
 
   try {
     await client.sendMessage(myNumber, "Bot conectado e funcionado!");
-    console.log("✅ Mensagem de conexão enviada com sucesso!");
+    console.log("Mensagem de conexão enviada com sucesso!");
   } catch (error) {
     console.error("Erro ao enviar mensagem:", error);
   }
   schedule.scheduleJob("30 9 * * *", enviarMensagensDoDia);
   console.log(
-    "⏰ Agendamento configurado para 06:30 (horário local) todos os dias"
+    "Agendamento configurado para 06:30 (horário local) todos os dias"
   );
 });
 
@@ -138,8 +138,8 @@ client.on("message", async (msg) => {
 
 try {
   client.initialize();
-  console.log("🚀 Inicializando cliente WhatsApp...");
+  console.log("Inicializando cliente WhatsApp...");
 } catch (error) {
-  console.error("❌ Erro na inicialização do cliente:", error);
+  console.error("Erro na inicialização do cliente:", error);
   process.exit(1);
 }
