@@ -3,56 +3,80 @@ const schedule = require("node-schedule");
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+
 const myNumber = "553173571193@c.us";
 const targetNumber = "553171345717@c.us";
-
-const server = http.createServer((req, res) => {
-  try {
-    const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
-    res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end(mensagem);
-  } catch (error) {
-    console.error("Erro no servidor HTTP:", error);
-    res.writeHead(500, { "Content-Type": "text/plain" });
-    res.end("Erro interno do servidor");
-  }
-});
 const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`Servidor HTTP rodando na porta ${PORT}`);
-});
 
 const client = new Client({
   authStrategy: new LocalAuth(),
 });
 
+async function verificarConexao() {
+  try {
+    if (!client || !client.info) {
+      console.log("Cliente ainda não inicializado");
+      return false;
+    }
+
+    const state = await client.getState();
+    if (state !== "CONNECTED") {
+      console.log(`WhatsApp não conectado. Estado atual: ${state}`);
+      return false;
+    }
+    return true;
+  } catch (error) {
+    console.log("Erro ao verificar conexão:", error);
+    return false;
+  }
+}
+
 function carregarMensagens() {
   try {
     const mensagensPath = path.join(__dirname, "mensagens.json");
+
+    if (!fs.existsSync(mensagensPath)) {
+      console.log(
+        "Arquivo mensagens.json não encontrado. Criando array vazio."
+      );
+      return [];
+    }
+
     const dados = fs.readFileSync(mensagensPath, "utf8");
-    return JSON.parse(dados);
+
+    if (!dados.trim()) {
+      console.log("Arquivo mensagens.json está vazio.");
+      return [];
+    }
+
+    const mensagens = JSON.parse(dados);
+
+    if (!Array.isArray(mensagens)) {
+      console.log("Formato inválido no arquivo mensagens.json.");
+      return [];
+    }
+
+    return mensagens;
   } catch (error) {
-    console.error("Erro ao carregar mensagens:", error);
+    console.log("Erro ao carregar mensagens:", error);
     return [];
   }
 }
 
 async function enviarMensagensDoDia() {
-  const dataAtual = new Date().toLocaleDateString("pt-BR");
-
-  let mensagens;
-  try {
-    mensagens = carregarMensagens();
-  } catch (error) {
-    console.error("Erro ao carregar mensagens:", error);
+  if (!(await verificarConexao())) {
+    console.log("WhatsApp não conectado. Cancelando envio.");
     return;
   }
+
+  const dataAtual = new Date().toLocaleDateString("pt-BR");
+  const mensagens = carregarMensagens();
 
   let mensagemDoDia;
   try {
     mensagemDoDia = mensagens.find((msg) => msg.data === dataAtual);
   } catch (error) {
-    console.error("Erro ao buscar mensagem do dia:", error);
+    console.log("Erro ao buscar mensagem do dia:", error);
     return;
   }
 
@@ -62,39 +86,47 @@ async function enviarMensagensDoDia() {
     );
 
     try {
-      await client.sendMessage(myNumber, `Função Iniciada com sucesso!`);
-      await new Promise((resolve) => setTimeout(resolve, 5000));
-      console.log("Processo finalizado com sucesso!");
+      if (await verificarConexao()) {
+        await client.sendMessage(myNumber, `Função Iniciada com sucesso!`);
+      }
+      await new Promise((resolve) => setTimeout(resolve, 10000));
+      console.log("Processo iniciado com sucesso!");
     } catch (error) {
-      console.error("Erro ao enviar confirmação:", error);
+      console.log("Erro ao enviar confirmação:", error);
     }
 
     if (mensagemDoDia.mensagem) {
       try {
-        await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
-        await new Promise((resolve) => setTimeout(resolve, 5000));
-        console.log("Mensagem de texto enviada");
+        if (await verificarConexao()) {
+          await client.sendMessage(targetNumber, mensagemDoDia.mensagem);
+        }
+        await new Promise((resolve) => setTimeout(resolve, 10000));
+        console.log(`Mensagem de texto enviada: ${mensagemDoDia.mensagem}`);
       } catch (error) {
-        console.error("Erro ao enviar mensagem de texto:", error);
+        console.log("Erro ao enviar mensagem de texto:", error);
       }
     }
 
     if (mensagemDoDia.musica && mensagemDoDia.musica.trim() !== "") {
       try {
-        await client.sendMessage(targetNumber, mensagemDoDia.musica);
-        await new Promise((resolve) => setTimeout(resolve, 5000));
-        console.log("Música enviada");
+        if (await verificarConexao()) {
+          await client.sendMessage(targetNumber, mensagemDoDia.musica);
+        }
+        await new Promise((resolve) => setTimeout(resolve, 10000));
+        console.log(`Música enviada: ${mensagemDoDia.musica}`);
       } catch (error) {
-        console.error("Erro ao enviar música:", error);
+        console.log("Erro ao enviar música:", error);
       }
     }
 
     if (mensagemDoDia.link_musica && mensagemDoDia.link_musica.trim() !== "") {
       try {
-        await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
-        console.log("Link da música enviado");
+        if (await verificarConexao()) {
+          await client.sendMessage(targetNumber, mensagemDoDia.link_musica);
+        }
+        console.log(`Link da música enviado: ${mensagemDoDia.link_musica}`);
       } catch (error) {
-        console.error("Erro ao enviar link da música:", error);
+        console.log("Erro ao enviar link da música:", error);
       }
     }
 
@@ -102,13 +134,15 @@ async function enviarMensagensDoDia() {
   } else {
     console.log(`Nenhuma mensagem encontrada para ${dataAtual}`);
     try {
-      await client.sendMessage(
-        myNumber,
-        "Nenhuma mensagem encontrada para hoje."
-      );
-      console.log("Erro ao enviar mensagem para meu número");
+      if (await verificarConexao()) {
+        await client.sendMessage(
+          myNumber,
+          "Nenhuma mensagem encontrada para hoje."
+        );
+      }
+      console.log("Mensagem do dia não encontrada.");
     } catch (error) {
-      console.error("Erro ao enviar mensagem para meu número:", error);
+      console.log("Erro ao enviar mensagem para meu número:", error);
     }
   }
 }
@@ -116,30 +150,56 @@ async function enviarMensagensDoDia() {
 client.once("ready", async () => {
   console.log("Bot conectado e pronto para enviar mensagens!");
 
+  await new Promise((resolve) => setTimeout(resolve, 20000));
+
   try {
-    await client.sendMessage(myNumber, "Bot conectado e funcionado!");
+    await client.sendMessage(myNumber, "Bot conectado e funcionando!");
     console.log("Mensagem de conexão enviada com sucesso!");
   } catch (error) {
-    console.error("Erro ao enviar mensagem:", error);
+    console.log("Erro ao enviar mensagem:", error);
   }
-  schedule.scheduleJob("30 9 * * *", enviarMensagensDoDia);
-  console.log(
-    "Agendamento configurado para 06:30 (horário local) todos os dias"
-  );
+
+  try {
+    const job = schedule.scheduleJob("30 9 * * *", enviarMensagensDoDia);
+    if (job) {
+      console.log("Agendamento configurado para 09:30 todos os dias");
+    } else {
+      console.log("Erro: Falha ao criar o agendamento");
+    }
+  } catch (error) {
+    console.log("Erro ao configurar agendamento:", error);
+  }
 });
 
 client.on("message", async (msg) => {
   try {
     await msg.reply("Esse número é só para envio de mensagens automáticas.");
   } catch (error) {
-    console.error("Erro ao responder mensagem:", error);
+    console.log("Erro ao responder mensagem:", error);
   }
 });
 
-try {
-  client.initialize();
-  console.log("Inicializando cliente WhatsApp...");
-} catch (error) {
-  console.error("Erro na inicialização do cliente:", error);
-  process.exit(1);
-}
+client
+  .initialize()
+  .then(() => {
+    console.log("Cliente WhatsApp inicializado com sucesso!");
+  })
+  .catch((error) => {
+    console.log("Erro na inicialização do cliente:", error);
+    process.exit(1);
+  });
+
+const server = http.createServer((req, res) => {
+  try {
+    const mensagem = req.url === "/status" ? "online" : "ChatBot rodando";
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end(mensagem);
+  } catch (error) {
+    console.log("Erro no servidor HTTP:", error);
+    res.writeHead(500, { "Content-Type": "text/plain" });
+    res.end("Erro interno do servidor");
+  }
+});
+server.listen(PORT, () => {
+  console.log(`Servidor HTTP rodando na porta ${PORT}`);
+});
