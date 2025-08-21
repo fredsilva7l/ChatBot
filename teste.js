@@ -15,7 +15,7 @@ function carregarMensagens() {
 
 // Simular o envio de mensagens (para teste)
 async function simularEnvioMensagens() {
-  const dataAtual = '21/08/2025';
+  const dataAtual = new Date().toLocaleDateString('pt-BR');
   const mensagens = carregarMensagens();
   
   // Procurar a mensagem correspondente à data atual
