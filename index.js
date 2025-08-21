@@ -8,6 +8,10 @@ const myNumber = "553173571193@c.us";
 const targetNumber = "553171345717@c.us";
 const PORT = process.env.PORT || 3000;
 
+let isReconnecting = false;
+let reconnectAttempts = 0;
+const maxReconnectAttempts = 5;
+
 const client = new Client({
   authStrategy: new LocalAuth(),
 });
@@ -149,6 +153,8 @@ async function enviarMensagensDoDia() {
 
 client.once("ready", async () => {
   console.log("Bot conectado e pronto para enviar mensagens!");
+  reconnectAttempts = 0;
+  isReconnecting = false;
 
   await new Promise((resolve) => setTimeout(resolve, 20000));
 
@@ -177,6 +183,50 @@ client.on("message", async (msg) => {
   } catch (error) {
     console.log("Erro ao responder mensagem:", error);
   }
+});
+
+client.on("disconnected", async (reason) => {
+  console.log("Cliente desconectado:", reason);
+
+  if (!isReconnecting && reconnectAttempts < maxReconnectAttempts) {
+    isReconnecting = true;
+    reconnectAttempts++;
+    console.log(
+      `Iniciando processo de reconexão... (Tentativa ${reconnectAttempts}/${maxReconnectAttempts})`
+    );
+
+    try {
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+      await client.destroy();
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+      await client.initialize();
+
+      console.log("Reconexão realizada com sucesso!");
+
+      isReconnecting = false;
+      reconnectAttempts = 0;
+    } catch (error) {
+      console.log("Erro durante reconexão:", error);
+      isReconnecting = false;
+
+      if (reconnectAttempts >= maxReconnectAttempts) {
+        console.log(
+          "Máximo de tentativas de reconexão atingido. Reiniciando aplicação..."
+        );
+        setTimeout(() => {
+          process.exit(1);
+        }, 2000);
+      } else {
+        setTimeout(() => {
+          client.emit("disconnected", reason);
+        }, 10000);
+      }
+    }
+  }
+});
+
+client.on("auth_failure", (msg) => {
+  console.error("Falha na autenticação:", msg);
 });
 
 client
