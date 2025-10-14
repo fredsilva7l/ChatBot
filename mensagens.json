@@ -1,0 +1,658 @@
+[
+    {
+        "posição": 1,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Oi mb. Nesta quinta, deixo no ar um carinho só pra você.",
+        "musica": "Abril - ANAVITÓRIA",
+        "link_musica": "https://open.spotify.com/intl-pt/track/66rU4Dff6qFAhia56xRs8E",
+        "data": "14/08/2025"
+    },
+    {
+        "posição": 2,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Hoje é dia de brilhar e fechar a semana com chave de ouro.",
+        "musica": "A Gente Junto - ANAVITÓRIA",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6AFA2QKlJfTdfKJqnBI3aB",
+        "data": "15/08/2025"
+    },
+    {
+        "posição": 3,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado é maravilhoso mas ainda não chega aos seus pés.",
+        "musica": "Linda - Projota",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6wnCBT8ip4i9HRhM3HVk6d",
+        "data": "16/08/2025"
+    },
+    {
+        "posição": 4,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Espero que consiga aproveitar o domingo com muita leveza…",
+        "musica": "Mais um na multidão - Marisa Monte",
+        "link_musica": "https://open.spotify.com/intl-pt/track/4oOD9dL7rtVz2s83UBElEG",
+        "data": "17/08/2025"
+    },
+    {
+        "posição": 5,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda-feira é aquele dia que pede um sorriso seu pra melhorar.",
+        "musica": "Depois - Marisa Monte",
+        "link_musica": "https://open.spotify.com/intl-pt/track/2yeI0FRWd1sqGpHEUc5DFm",
+        "data": "18/08/2025"
+    },
+    {
+        "posição": 6,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Só passando pra lembrar que você é especial todos os dias",
+        "musica": "Bem Que Se Quis - Marisa Monte",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6tAug9ksGLZb2z1RfPZJMo",
+        "data": "19/08/2025"
+    },
+    {
+        "posição": 7,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Que seu dia seja leve e feliz…",
+        "musica": "Can't Take My Eyes Off You - Frankie Valli",
+        "link_musica": "https://open.spotify.com/search/Can't%20Take%20My%20Eyes%20Off%20You",
+        "data": "20/08/2025"
+    },
+    {
+        "posição": 8,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Que sua quinta seja tão linda quanto o seu sorriso.",
+        "musica": "Your Song - Elton John",
+        "link_musica": "https://open.spotify.com/intl-pt/track/38zsOOcu31XbbYj9BIPUF1",
+        "data": "21/08/2025"
+    },
+    {
+        "posição": 9,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Sexta-feira é o dia oficial de pensar besteira… e a maioria envolve você.",
+        "musica": "Hello - Lionel Richie",
+        "link_musica": "https://open.spotify.com/intl-pt/track/6HMvJcdw6qLsyV1b5x29sa",
+        "data": "22/08/2025"
+    },
+    {
+        "posição": 10,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado é maravilhoso mas ainda não chega aos seus pés.",
+        "musica": "Can't Help Falling in Love - Elvis Presley",
+        "link_musica": "https://open.spotify.com/search/Can't%20Help%20Falling%20in%20Love%20-%20Elvis%20Presley",
+        "data": "23/08/2025"
+    },
+    {
+        "posição": 11,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Espero que consiga aproveitar o domingo com muita leveza…",
+        "musica": "Darlin - The Beach Boys",
+        "link_musica": "https://open.spotify.com/search/Can't%20Help%20Falling%20in%20Love%20-%20Elvis%20Presley",
+        "data": "24/08/2025"
+    },
+    {
+        "posição": 12,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda-feira é aquele dia que pede um sorriso seu pra melhorar.",
+        "musica": "Making Love Out Of Nothing At All - Air Suplly",
+        "link_musica": "https://open.spotify.com/search/Making%20Love%20Out%20Of%20Nothing%20At%20All%20-%20Air%20Suplly",
+        "data": "25/08/2025"
+    },
+    {
+        "posição": 13,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Dia perfeito pra provar que leveza e beleza andam juntas… igual você.",
+        "musica": "You've Got a Friend - James Taylor",
+        "link_musica": "https://open.spotify.com/intl-pt/track/5ONuwMIXAukbMNQCCSjjm0",
+        "data": "26/08/2025"
+    },
+    {
+        "posição": 14,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Já pensou se todo dia tivesse o brilho que você tem?",
+        "musica": "Count On Me - Bruno Mars",
+        "link_musica": "https://open.spotify.com/search/Count%20On%20Me%20-%20Bruno%20Mars",
+        "data": "27/08/2025"
+    },
+    {
+        "posição": 15,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta é aquela esperança disfarçada de ansiedade pra sexta.",
+        "musica": "I'll Stand By You - The Pretenders",
+        "link_musica": "https://open.spotify.com/search/I'll%20Stand%20By%20You%20-%20The%20Pretenders",
+        "data": "28/08/2025"
+    },
+    {
+        "posição": 16,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Hoje tudo fica mais bonito, mas ainda não chega no seu nível.",
+        "musica": "True Colors - Cyndi Lauper",
+        "link_musica": "https://open.spotify.com/intl-pt/track/2A6yzRGMgSQCUapR2ptm6A",
+        "data": "29/08/2025"
+    },
+    {
+        "posição": 17,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado é lindo, mas você ainda ganha.",
+        "musica": "Just The Way You Are - Billy Joel",
+        "link_musica": "https://open.spotify.com/search/Just%20The%20Way%20You%20Are%20-%20Billy%20Joel",
+        "data": "30/08/2025"
+    },
+    {
+        "posição": 18,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Que seu dia seja tão sereno quanto sua presença.",
+        "musica": "Somewhere Only We Know - Keane",
+        "link_musica": "https://open.spotify.com/search/Somewhere%20Only%20We%20Know%20-%20Keane",
+        "data": "31/08/2025"
+    },
+    {
+        "posição": 19,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda é difícil, mas com você até fila de banco parece divertida.",
+        "musica": "Gelo - Melim",
+        "link_musica": "https://open.spotify.com/search/Gelo%20-%20Melim",
+        "data": "01/09/2025"
+    },
+    {
+        "posição": 20,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Que sua terça-feira seja leve e produtiva.",
+        "musica": "Eterno Agora - Lagum",
+        "link_musica": "https://open.spotify.com/search/Eterno%20Agora%20-%20Lagum",
+        "data": "02/09/2025"
+    },
+    {
+        "posição": 21,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Levanta que o mundo não gira sem sua beleza pra dar equilíbrio.",
+        "musica": "Quando Bate Aquela Saudade - Rubel",
+        "link_musica": "https://open.spotify.com/search/Quando%20Bate%20Aquela%20Saudade%20-%20Rubel",
+        "data": "03/09/2025"
+    },
+    {
+        "posição": 22,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta combina com energia boa… e você tem de sobra.",
+        "musica": "Fica Tudo Bem (part. Anitta) - Silva",
+        "link_musica": "https://open.spotify.com/search/Fica%20Tudo%20Bem%20(part.%20Anitta)%20-%20Silva",
+        "data": "04/09/2025"
+    },
+    {
+        "posição": 23,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Hoje é dia de relaxar e deixar a vida mais leve… tipo quando você aparece.",
+        "musica": "A Cor É Rosa - Silva",
+        "link_musica": "https://open.spotify.com/search/A%20Cor%20%C3%89%20Rosa%20-%20Silva",
+        "data": "05/09/2025"
+    },
+    {
+        "posição": 24,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Hoje é dia de caprichar no sorriso, igual você capricha no charme.",
+        "musica": "Bela Flor - Maria Gadú",
+        "link_musica": "https://open.spotify.com/search/Bela%20Flor%20-%20Maria%20Gad%C3%BA",
+        "data": "06/09/2025"
+    },
+    {
+        "posição": 25,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Domingo é pra descansar o corpo e agitar o coração.",
+        "musica": "Flor e o Beija-Flor (part. Marília Mendonça) - Henrique & Juliano",
+        "link_musica": "https://open.spotify.com/search/Flor%20e%20o%20Beija-Flor%20(part.%20Mar%C3%ADlia%20Mendon%C3%A7a)%20-%20Henrique%20%26%20Juliano",
+        "data": "07/09/2025"
+    },
+    {
+        "posição": 26,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Hoje é dia de começar com café forte e pensamento positivo… tipo você.",
+        "musica": "João de Barro (part. Leandro Léo) - Maria Gadú",
+        "link_musica": "https://open.spotify.com/search/Jo%C3%A3o%20de%20Barro%20(part.%20Leandro%20L%C3%A9o)%20-%20Maria%20Gad%C3%BA",
+        "data": "08/09/2025"
+    },
+    {
+        "posição": 27,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Terça pede leveza, igual aquele silêncio gostoso de museu.",
+        "musica": "Flor e o Beija-Flor (part. Marília Mendonça) - Henrique & Juliano",
+        "link_musica": "https://open.spotify.com/search/Flor%20e%20o%20Beija-Flor%20(part.%20Mar%C3%ADlia%20Mendon%C3%A7a)%20-%20Henrique%20%26%20Juliano",
+        "data": "09/09/2025"
+    },
+    {
+        "posição": 28,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Quarta chegou, metade da semana já é paisagem de estrada — aproveite o horizonte.",
+        "musica": "Gelo - Melim",
+        "link_musica": "https://open.spotify.com/search/Gelo%20-%20Melim",
+        "data": "10/09/2025"
+    },
+    {
+        "posição": 29,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta é quase despedida da pressa — que você aproveite tudo devagar, no seu tempo.",
+        "musica": "Cor Favorita - Tiê",
+        "link_musica": "https://open.spotify.com/search/Cor%20Favorita",
+        "data": "11/09/2025"
+    },
+    {
+        "posição": 30,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Que sua sexta-feira seja como uma viagem inesperada: cheia de bons encontros.",
+        "musica": "Interestelar - Pedro Pascual",
+        "link_musica": "https://open.spotify.com/search/Interestelar%20Pedro%20Pascual",
+        "data": "12/09/2025"
+    },
+    {
+        "posição": 31,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado tem cheiro de tinta fresca, perfeito pra criar sem pressa.",
+        "musica": "Ontem, Hoje e Amanhã - Pedro Pascual",
+        "link_musica": "https://open.spotify.com/search/Ontem%2C%20Hoje%20e%20Amanh%C3%A3",
+        "data": "13/09/2025"
+    },
+    {
+        "posição": 32,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Hoje é domingo, perfeito pra se perder no tempo com a calma que você tanto ama.",
+        "musica": "Memória - Banda Malta",
+        "link_musica": "https://open.spotify.com/search/memoria%20banda%20malta",
+        "data": "14/09/2025"
+    },
+    {
+        "posição": 33,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda chegou mansinha, perfeita pra você espalhar arte na rotina cinza.",
+        "musica": "Apenas Mais uma de Amor - Lulu Santos",
+        "link_musica": "https://open.spotify.com/search/apenas%20mais%20uma%20de%20amor",
+        "data": "15/09/2025"
+    },
+    {
+        "posição": 34,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Terça é quase meio do caminho, mas com você parece sempre começo de algo bom.",
+        "musica": "Fico Assim Sem Você - Claudinho e Buchecha",
+        "link_musica": "https://open.spotify.com/search/Fico%20Assim%20Sem%20Voc%C3%AA%20-%20Claudinho%20e%20Buchecha",
+        "data": "16/09/2025"
+    },
+    {
+        "posição": 35,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Que sua quarta seja tão serena quanto um quadro que prende o olhar.",
+        "musica": "Caso Indefinido - Cristiano Araujo",
+        "link_musica": "https://open.spotify.com/search/caso%20indefinido",
+        "data": "17/09/2025"
+    },
+    {
+        "posição": 36,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Hoje é quinta, perfeita pra ser mapa e bússola: siga a beleza que só você enxerga.",
+        "musica": "Medo Bobo - Maiara & Maraisa",
+        "link_musica": "https://open.spotify.com/search/Medo%20Bobo%20-%20Maiara%20%26%20Maraisa",
+        "data": "18/09/2025"
+    },
+    {
+        "posição": 37,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Sexta chega feito brisa, mas em você vira tempestade boa.",
+        "musica": "Todo Mundo Menos Você - Maiara & Maraisa",
+        "link_musica": "https://open.spotify.com/search/Todo%20Mundo%20Menos%20Voc%C3%AA%20-%20Maiara%20%26%20Maraisa",
+        "data": "19/09/2025"
+    },
+    {
+        "posição": 38,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Que seu sábado seja sol até na sombra, igual você ilumina sem esforço.",
+        "musica": "Borboletas - Victor & Leo",
+        "link_musica": "https://open.spotify.com/search/Borboletas%20-%20Victor%20%26%20Leo",
+        "data": "20/09/2025"
+    },
+    {
+        "posição": 39,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Que seu domingo seja descanso de corpo e festa de alma.",
+        "musica": "10 Minutos Longe de Você - Victor & Leo",
+        "link_musica": "https://open.spotify.com/search/10%20Minutos%20Longe%20de%20Voc%C3%AA%20-%20Victor%20%26%20Leo",
+        "data": "21/09/2025"
+    },
+    {
+        "posição": 40,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Que seu café desperte mais que os olhos, desperte também a coragem de começar bonito.",
+        "musica": "Te Assumi Pro Brasil - Matheus & Kauan",
+        "link_musica": "https://open.spotify.com/search/Te%20Assumi%20Pro%20Brasil%20-%20Matheus%20%26%20Kauan",
+        "data": "22/09/2025"
+    },
+    {
+        "posição": 41,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Que sua terça seja como você: firme nos passos e suave nos gestos.",
+        "musica": "Nessas Horas - Matheus & Kauan",
+        "link_musica": "https://open.spotify.com/search/Nessas%20Horas%20-%20Matheus%20%26%20Kauan",
+        "data": "23/09/2025"
+    },
+    {
+        "posição": 42,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Metade da semana, mas seu jeito faz tudo parecer começo.",
+        "musica": "Madri - Fernando e Sorocaba",
+        "link_musica": "https://open.spotify.com/search/Madri%20-%20Fernando%20e%20Sorocaba",
+        "data": "24/09/2025"
+    },
+    {
+        "posição": 43,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta já cheira a liberdade, e você sabe viver isso melhor que ninguém.",
+        "musica": "O Que Cê Vai Fazer - Fernando e Sorocaba",
+        "link_musica": "https://open.spotify.com/search/O%20Que%20C%C3%AA%20Vai%20Fazer%20-%20Fernando%20e%20Sorocaba",
+        "data": "25/09/2025"
+    },
+    {
+        "posição": 44,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Que seu dia seja inteiro alegria antecipada, igual quando você entra na sala.",
+        "musica": "Entregador de Flor - Diego e Victor Hugo",
+        "link_musica": "https://open.spotify.com/search/Entregador%20de%20Flor%20-%20Diego%20e%20Victor%20Hugo",
+        "data": "26/09/2025"
+    },
+    {
+        "posição": 45,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Hoje é dia de preguiça bonita, daquelas que você transforma em arte.",
+        "musica": "Sou Seu Fã Nº 1 - Eduardo Costa",
+        "link_musica": "https://open.spotify.com/search/Sou%20Seu%20F%C3%A3%20N%C2%BA%201%20-%20Eduardo%20Costa",
+        "data": "27/09/2025"
+    },
+    {
+        "posição": 46,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Hoje é dia de vento na cara, pés descalços e coração aberto, tipo você.",
+        "musica": "Domingo de Manhã - Marcos & Belutti",
+        "link_musica": "https://open.spotify.com/search/Domingo%20de%20Manh%C3%A3%20-%20Marcos%20%26%20Belutti",
+        "data": "28/09/2025"
+    },
+    {
+        "posição": 47,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda pede foco, mas seu jeito lembra que leveza também é força.",
+        "musica": "Amo Noite e Dia - Jorge & Mateus",
+        "link_musica": "https://open.spotify.com/search/Amo%20Noite%20e%20Dia%20-%20Jorge%20%26%20Mateus",
+        "data": "29/09/2025"
+    },
+    {
+        "posição": 48,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Desejo que hoje sua energia seja como vento: natural, forte e impossível de segurar.",
+        "musica": "Sinônimos - Zé Ramalho",
+        "link_musica": "https://open.spotify.com/search/Sin%C3%B4nimos%20-%20Z%C3%A9%20Ramalho",
+        "data": "30/09/2025"
+    },
+    {
+        "posição": 49,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Quarta é ponte, e você é estrada que leva pro melhor caminho.",
+        "musica": "Câmera Lenta - Marcos & Belutti",
+        "link_musica": "https://open.spotify.com/search/C%C3%A2mera%20Lenta%20-%20Marcos%20%26%20Belutti",
+        "data": "01/10/2025"
+    },
+    {
+        "posição": 50,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Que sua quinta seja feita de momentos leves, igual você faz parecer a vida.",
+        "musica": "The Reason - Hoobastank",
+        "link_musica": "https://open.spotify.com/search/The%20Reason%20-%20Hoobastank",
+        "data": "02/10/2025"
+    },
+    {
+        "posição": 51,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Sexta é dia de celebrar a beleza que você espalha por onde passa.",
+        "musica": "Everlong - Foo Fighters",
+        "link_musica": "https://open.spotify.com/search/Everlong%20-%20Foo%20Fighters",
+        "data": "03/10/2025"
+    },
+    {
+        "posição": 52,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado é dia de se perder no tempo, igual quando você sorri.",
+        "musica": "I Don't Want To Miss a Thing - Aerosmith",
+        "link_musica": "https://open.spotify.com/search/I%20Don't%20Want%20To%20Miss%20a%20Thing%20-%20Aerosmith",
+        "data": "04/10/2025"
+    },
+    {
+        "posição": 53,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Domingo é pra recarregar a alma com a leveza que só você tem.",
+        "musica": "I Don't Want To Miss a Thing - Aerosmith",
+        "link_musica": "https://open.spotify.com/search/I%20Don't%20Want%20To%20Miss%20a%20Thing%20-%20Aerosmith",
+        "data": "05/10/2025"
+    },
+    {
+        "posição": 54,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda pede coragem, mas seu sorriso já resolve metade do problema.",
+        "musica": "Wonderwall - Oasis",
+        "link_musica": "https://open.spotify.com/search/Wonderwall%20-%20Oasis",
+        "data": "06/10/2025"
+    },
+    {
+        "posição": 55,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Terça já traz ritmo, e você é a melodia perfeita.",
+        "musica": "Always - Bon Jovi",
+        "link_musica": "https://open.spotify.com/search/Always%20-%20Bon%20Jovi",
+        "data": "07/10/2025"
+    },
+    {
+        "posição": 56,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Metade da semana pede respiro, e você é o ar bom que falta.",
+        "musica": "Iris - Goo Goo Dolls",
+        "link_musica": "https://open.spotify.com/search/Iris%20-%20Goo%20Goo%20Dolls",
+        "data": "08/10/2025"
+    },
+    {
+        "posição": 57,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta é quase sexta, mas já tem cara de festa quando você aparece.",
+        "musica": "Still Loving You - Scorpions",
+        "link_musica": "https://open.spotify.com/search/Still%20Loving%20You%20-%20Scorpions",
+        "data": "09/10/2025"
+    },
+    {
+        "posição": 58,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Sexta é convite pra leveza, e você é a resposta.",
+        "musica": "You're My Best Friend - Queen",
+        "link_musica": "https://open.spotify.com/search/You're%20My%20Best%20Friend%20-%20Queen",
+        "data": "10/10/2025"
+    },
+    {
+        "posição": 59,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado chega com sossego, mas ainda não supera sua paz.",
+        "musica": "Something - The Beatles",
+        "link_musica": "https://open.spotify.com/search/Something%20-%20The%20Beatles",
+        "data": "11/10/2025"
+    },
+    {
+        "posição": 60,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Domingo é descanso, mas com você vira poesia.",
+        "musica": "With Or Without You - U2",
+        "link_musica": "https://open.spotify.com/search/With%20Or%20Without%20You%20-%20U2",
+        "data": "12/10/2025"
+    },
+    {
+        "posição": 61,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Hoje a rotina só anda porque você dá o tom.",
+        "musica": "Every Breath You Take - The Police",
+        "link_musica": "https://open.spotify.com/search/Every%20Breath%20You%20Take%20-%20The%20Police",
+        "data": "13/10/2025"
+    },
+    {
+        "posição": 62,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Que hoje tudo seja simples e bonito, como sua presença.",
+        "musica": "More Than Words - Extreme",
+        "link_musica": "https://open.spotify.com/search/More%20Than%20Words%20-%20Extreme",
+        "data": "14/10/2025"
+    },
+    {
+        "posição": 63,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Quarta é equilíbrio, e você é o ponto mais leve da balança.",
+        "musica": "(Everything I Do) I Do It For You - Bryan Adams",
+        "link_musica": "https://open.spotify.com/search/(Everything%20I%20Do)%20I%20Do%20It%20For%20You%20-%20Bryan%20Adams",
+        "data": "15/10/2025"
+    },
+    {
+        "posição": 64,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Hoje é dia de sol disfarçado em gente, tipo você.",
+        "musica": "Forever - Kiss",
+        "link_musica": "https://open.spotify.com/search/Forever%20-%20Kiss",
+        "data": "16/10/2025"
+    },
+    {
+        "posição": 65,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Que seu dia seja inteiro riso, daqueles que não acabam nunca.",
+        "musica": "Every Rose Has Its Thorn - Poison",
+        "link_musica": "https://open.spotify.com/search/Every%20Rose%20Has%20Its%20Thorn%20-%20Poison",
+        "data": "17/10/2025"
+    },
+    {
+        "posição": 66,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Hoje é dia de sol, sombra e você no pensamento.",
+        "musica": "Can't Fight This Feeling - REO Speedwagon",
+        "link_musica": "https://open.spotify.com/search/Can't%20Fight%20This%20Feeling%20-%20REO%20Speedwagon",
+        "data": "18/10/2025"
+    },
+    {
+        "posição": 67,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Hoje é dia de silenciar o mundo e ouvir o coração, igual você sabe fazer.",
+        "musica": "I Can't Tell You Why - Eagles",
+        "link_musica": "https://open.spotify.com/search/I%20Can't%20Tell%20You%20Why%20-%20Eagles",
+        "data": "19/10/2025"
+    },
+    {
+        "posição": 68,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda é cinza, mas com você fica em aquarela.",
+        "musica": "Far Away - Nickelback",
+        "link_musica": "https://open.spotify.com/search/Far%20Away-%20Nickelback",
+        "data": "20/10/2025"
+    },
+    {
+        "posição": 69,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Terça combina com foco e um pouco de charme — você tem os dois.",
+        "musica": "Never Gonna Be Alone - Nickelback",
+        "link_musica": "https://open.spotify.com/search/Never%20Gonna%20Be%20Alone%20-%20Nickelback",
+        "data": "21/10/2025"
+    },
+    {
+        "posição": 70,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Quarta é ponte, e você é estrada que leva pro melhor caminho.",
+        "musica": "Never Gonna Be Alone - Nickelback",
+        "link_musica": "https://open.spotify.com/search/Never%20Gonna%20Be%20Alone%20-%20Nickelback",
+        "data": "22/10/2025"
+    },
+    {
+        "posição": 71,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Quinta tem gosto de promessa boa, igual seu olhar.",
+        "musica": "The Scientist - Coldplay",
+        "link_musica": "https://open.spotify.com/search/The%20Scientist%20-%20Coldplay",
+        "data": "23/10/2025"
+    },
+    {
+        "posição": 72,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Sexta tem pressa, mas você merece calma boa.",
+        "musica": "Come To Me - Goo Goo Dolls",
+        "link_musica": "https://open.spotify.com/search/Come%20To%20Me%20-%20Goo%20Goo%20Dolls",
+        "data": "24/10/2025"
+    },
+    {
+        "posição": 73,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Sábado é liberdade, igual você espalha por onde passa.",
+        "musica": "",
+        "link_musica": "",
+        "data": "25/10/2025"
+    },
+    {
+        "posição": 74,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Que seu domingo seja abraço longo e sorriso fácil.",
+        "musica": "",
+        "link_musica": "",
+        "data": "26/10/2025"
+    },
+    {
+        "posição": 75,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Segunda é recomeço, e você é inspiração pra tudo ser leve.",
+        "musica": "",
+        "link_musica": "",
+        "data": "27/10/2025"
+    },
+    {
+        "posição": 76,
+        "diaSemana": "Terça-feira",
+        "mensagem": "Bom dia mb! Que seu dia seja claro e suave, igual sua energia.",
+        "musica": "",
+        "link_musica": "",
+        "data": "28/10/2025"
+    },
+    {
+        "posição": 77,
+        "diaSemana": "Quarta-feira",
+        "mensagem": "Bom dia mb! Que hoje tudo se organize ao redor do seu brilho.",
+        "musica": "",
+        "link_musica": "",
+        "data": "29/10/2025"
+    },
+    {
+        "posição": 78,
+        "diaSemana": "Quinta-feira",
+        "mensagem": "Bom dia mb! Que seu dia seja livre e bonito, do jeito que você é.",
+        "musica": "",
+        "link_musica": "",
+        "data": "30/10/2025"
+    },
+    {
+        "posição": 79,
+        "diaSemana": "Sexta-feira",
+        "mensagem": "Bom dia mb! Hoje é tempo de planejar a felicidade, e você é o projeto.",
+        "musica": "",
+        "link_musica": "",
+        "data": "31/10/2025"
+    },
+    {
+        "posição": 80,
+        "diaSemana": "Sábado",
+        "mensagem": "Bom dia mb! Que seu dia seja tão leve quanto sua risada.",
+        "musica": "",
+        "link_musica": "",
+        "data": "01/11/2025"
+    },
+    {
+        "posição": 81,
+        "diaSemana": "Domingo",
+        "mensagem": "Bom dia mb! Domingo é descanso, mas com você vira poesia.",
+        "musica": "",
+        "link_musica": "",
+        "data": "02/11/2025"
+    },
+    {
+        "posição": 82,
+        "diaSemana": "Segunda-feira",
+        "mensagem": "Bom dia mb! Que seu começo de semana seja firme, leve e cheio de brilho.",
+        "musica": "",
+        "link_musica": "",
+        "data": "03/11/2025"
+    }
+]
